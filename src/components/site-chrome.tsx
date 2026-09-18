@@ -19,12 +19,12 @@ export function SiteHeader() {
         </span>
       </Link>
       <nav className="flex items-center gap-6 md:gap-10">
-        <a
-          href="/#artists"
+        <Link
+          to="/artists"
           className="inline-flex min-h-11 items-center text-[0.85rem] text-fg transition-opacity duration-150 hover:opacity-50"
         >
           Artists
-        </a>
+        </Link>
         <a
           href={BOOKING_MAIL}
           className="inline-flex min-h-11 items-center text-[0.85rem] text-fg transition-opacity duration-150 hover:opacity-50"
