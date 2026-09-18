@@ -19,7 +19,7 @@
 
   --text-label: 0.75rem;
   --text-body: 0.9375rem;
-  --text-hero: clamp(2.5rem, 9vw, 5.5rem);
+  --text-hero: clamp(4.5rem, 16vw, 10rem);
 
   --leading-tight: 0.92;
   --leading-normal: 1.55;

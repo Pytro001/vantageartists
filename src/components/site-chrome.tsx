@@ -11,13 +11,10 @@ export function SiteHeader() {
     <header className="flex items-center justify-between px-6 py-6 md:px-12 md:py-8">
       <Link
         to="/"
-        className="flex items-center gap-3 text-fg"
+        className="flex items-center text-fg"
         aria-label="Vantage home"
       >
-        <Logo className="h-6 w-auto md:h-7" title="" />
-        <span className="text-[0.95rem] font-semibold uppercase tracking-[0.18em]">
-          Vantage
-        </span>
+        <Logo className="h-8 w-auto md:h-10" title="" />
       </Link>
       <nav className="flex items-center gap-6 md:gap-10">
         <Link
