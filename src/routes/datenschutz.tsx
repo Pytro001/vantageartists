@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { BOOKING_EMAIL, BOOKING_MAIL, SiteFooter, SiteHeader } from "@/components/site-chrome";
+import { SiteFooter, SiteHeader } from "@/components/site-chrome";
+import { CopyEmail } from "@/components/copy-email";
 
 export const Route = createFileRoute("/datenschutz")({ component: Privacy });
 
@@ -20,12 +21,7 @@ function Privacy() {
               <br />
               Sebnitzer Str. 35, 01099 Dresden
               <br />
-              <a
-                href={BOOKING_MAIL}
-                className="text-fg underline decoration-line underline-offset-4"
-              >
-                {BOOKING_EMAIL}
-              </a>
+              <CopyEmail className="text-fg" />
             </p>
           </section>
           <section>

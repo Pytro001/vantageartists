@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { BOOKING_MAIL, SiteFooter, SiteHeader } from "@/components/site-chrome";
+import { CopyEmail } from "@/components/copy-email";
+import { SiteFooter, SiteHeader } from "@/components/site-chrome";
 
 export const Route = createFileRoute("/artists")({ component: Artists });
 
@@ -16,17 +17,12 @@ function Artists() {
           Techno and speed house. Booking worldwide.
         </p>
         <div className="mt-10 flex flex-col items-center gap-4">
-          <a
-            href={BOOKING_MAIL}
-            className="inline-flex min-h-11 items-center text-[0.85rem] text-fg transition-opacity duration-150 hover:opacity-50"
-          >
-            Book
-          </a>
+          <CopyEmail className="inline-flex min-h-11 items-center text-[0.85rem] text-fg" />
           <a
             href="https://www.pytromusic.com"
             target="_blank"
             rel="noreferrer"
-            className="inline-flex min-h-11 items-center text-[0.85rem] text-muted transition-opacity duration-150 hover:opacity-50"
+            className="inline-flex min-h-11 items-center text-[0.85rem] text-muted"
           >
             pytromusic.com
           </a>
