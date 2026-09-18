@@ -27,7 +27,7 @@ export function SiteHeader() {
           Artists
         </Link>
         <CopyEmail className="inline-flex min-h-11 items-center text-[0.85rem] text-fg">
-          Booking
+          Artist Bookings
         </CopyEmail>
       </nav>
     </header>
@@ -36,7 +36,7 @@ export function SiteHeader() {
 
 export function SiteFooter() {
   return (
-    <footer className="mt-auto bg-inverse px-6 py-12 text-on-inverse md:px-12 md:py-16">
+    <footer className="mt-auto bg-inverse px-6 py-16 text-on-inverse md:px-12 md:py-20">
       <div className="flex flex-col items-center gap-6 text-center">
         <CopyEmail className="min-h-11 text-[0.95rem] tracking-wide text-on-inverse" />
         <p className="text-[0.8rem] tracking-[0.08em] text-muted">
