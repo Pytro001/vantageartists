@@ -15,7 +15,7 @@ export const Route = createRootRoute({
         name: "description",
         content: "Vantage Artists. Artist booking and management.",
       },
-      { name: "theme-color", content: "#ffffff" },
+      { name: "theme-color", content: "#111111" },
     ],
     links: [
       { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" },

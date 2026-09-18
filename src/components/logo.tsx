@@ -3,9 +3,13 @@ type LogoProps = {
   title?: string;
 };
 
-/** Two-blade V mark. Black on light. */
+/** Two-blade V mark. White on dark. */
 export function Logo({ className, title }: LogoProps) {
   return (
-    <img src="/logo-black.png" alt={title ?? ""} className={className} />
+    <img
+      src="/logo.png"
+      alt={title ?? ""}
+      className={["mix-blend-screen", className].filter(Boolean).join(" ")}
+    />
   );
 }
